@@ -1,0 +1,2 @@
+"""ClassPilot package."""
+
