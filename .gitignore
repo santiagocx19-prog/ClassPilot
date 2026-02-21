@@ -1,8 +1,6 @@
 __pycache__/
+.pytest_cache/
 *.py[cod]
+.vscode/
 .venv/
 venv/
-.pytest_cache/
-.vscode/
-# Opcional: si no quieres que tus datos de prueba se suban
-classpilot.json
