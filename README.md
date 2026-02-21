@@ -36,6 +36,5 @@ El proyecto sigue los principios de **Clean Architecture**, dividiendo las respo
 ## ⚙️ Instalación y Uso
 
 1. **Clona el repositorio:**
-   ```bash
-  git clone https://github.com/santiagocx19-prog/ClassPilot.git
+   ```bash git clone https://github.com/santiagocx19-prog/ClassPilot.git
   
