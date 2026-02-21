@@ -1,46 +1,40 @@
-ClassPilot 🍎
-Sistema de Gestión para Tutores Particulares
+# ClassPilot 🍎 
+### Sistema de Gestión para Tutores Particulares
 
-ClassPilot es una solución robusta diseñada para ayudar a profesores particulares a gestionar su flujo de trabajo, desde el seguimiento de alumnos hasta la programación de clases y el control de ingresos, todo bajo una arquitectura limpia y moderna.
+**ClassPilot** es una solución robusta diseñada para ayudar a profesores particulares a gestionar su flujo de trabajo, desde el seguimiento de alumnos hasta la programación de clases y el control de ingresos, todo bajo una arquitectura limpia y moderna.
 
-🚀 Características Principales
-Gestión de Alumnos: Registro y seguimiento detallado de estudiantes.
+---
 
-Programación de Clases: Calendario de sesiones con estados (pendiente, completada, cancelada).
+## 🚀 Características Principales
+* **Gestión de Alumnos:** Registro y seguimiento detallado de estudiantes.
+* **Programación de Clases:** Calendario de sesiones con estados (pendiente, completada, cancelada).
+* **Control de Ingresos:** Dashboard con cálculo automático de ganancias estimadas y reales.
+* **Persistencia Atómica:** Sistema de almacenamiento en JSON con escritura segura para evitar la corrupción de datos.
+* **API RESTful:** Documentación interactiva automática integrada.
 
-Control de Ingresos: Dashboard con cálculo automático de ganancias estimadas y reales.
+---
 
-Persistencia Atómica: Sistema de almacenamiento en JSON con escritura segura para evitar corrupción de datos.
+## 🏗️ Arquitectura
+El proyecto sigue los principios de **Clean Architecture**, dividiendo las responsabilidades en capas para garantizar la escalabilidad y facilidad de prueba:
 
-API RESTful: Documentación interactiva automática (Swagger/OpenAPI).
+* **Domain:** Entidades y reglas de negocio puras.
+* **Application:** Servicios de orquestación (Use Cases).
+* **Infrastructure:** Implementación de repositorios y persistencia de datos.
+* **Presentation:** Capa de API construida con **FastAPI**.
 
-🏗️ Arquitectura
-El proyecto sigue los principios de Clean Architecture, dividiendo las responsabilidades en capas para garantizar la escalabilidad y facilidad de prueba:
+---
 
-Domain: Entidades y reglas de negocio puras.
+## 🛠️ Stack Tecnológico
+* **Lenguaje:** Python 3.x
+* **Framework Web:** FastAPI
+* **Validación de Datos:** Pydantic
+* **Testing:** Pytest
+* **Almacenamiento:** JSON con manejo de archivos atómicos.
 
-Application: Servicios de orquestación (Use Cases).
+---
 
-Infrastructure: Implementación de repositorios y persistencia de datos.
+## ⚙️ Instalación y Uso
 
-Presentation: Capa de API construida con FastAPI.
-
-🛠️ Stack Tecnológico
-Lenguaje: Python 3.x
-
-Framework Web: FastAPI
-
-Validación de Datos: Pydantic
-
-Testing: Pytest
-
-Almacenamiento: JSON con manejo de archivos atómicos.
-
-⚙️ Instalación y Uso
-Clona el repositorio: git clone ...
-
-Instala dependencias: pip install -r requirements.txt
-
-Ejecuta la aplicación: uvicorn main:app --reload
-
-Accede a la documentación: http://localhost:8000/docs
+1. **Clona el repositorio:**
+   ```bash
+   git clone [https://github.com/santiagocx19-prog/ClassPilot.git](https://github.com/santiagocx19-prog/ClassPilot.git)
